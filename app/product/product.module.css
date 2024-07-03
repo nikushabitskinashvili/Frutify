@@ -13,11 +13,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   position: relative;
 }
 .fruitImage img {
-  width: 60%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .iconsWrapper img{
     width: 100%;
