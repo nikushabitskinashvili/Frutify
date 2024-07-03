@@ -69,7 +69,7 @@
   font-weight: 900;
   line-height: normal;
 }
-.input::placeholder {
+.input {
   color: rgba(37, 43, 66, 0.6);
   font-family: Inconsolata;
   font-size: 20px;

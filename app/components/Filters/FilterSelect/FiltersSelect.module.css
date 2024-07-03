@@ -36,7 +36,6 @@
 .selectWrapper {
   display: inline-block;
   position: relative;
-  width: 240px;
   border-radius: 8px;
   border: 4px solid #000;
   background-color: #ffa500;

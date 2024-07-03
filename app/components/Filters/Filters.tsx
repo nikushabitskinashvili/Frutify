@@ -9,7 +9,18 @@ const Filters = () => {
       <div className={styles.title}>Filter</div>
       <div className={styles.chart}>
         <span className={styles.label}>Category</span>
-        <FilterSelect />
+        <FilterSelect values={[
+          {
+            value: 'all',
+            title: 'All'
+          },
+          {
+            value: 'apple',
+            title: 'Apple'
+          }
+        ]} onChange={function (item: string): void {
+          throw new Error("Function not implemented.");
+        } }/>
       </div>
       <div className={styles.chart}>
         <span className={styles.label}>Price</span>
