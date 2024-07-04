@@ -18,6 +18,8 @@ const FruitCard = (props: Props) => {
   const handleDelete = (id:number) =>{
     axios.delete(`http://10.10.51.4:3000/products/${id}`)
   }
+
+  
   return (
     <div className={styles.fruitCard}>
       <div className={styles.imageWrapper}>

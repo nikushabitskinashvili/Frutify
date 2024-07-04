@@ -9,6 +9,8 @@ const AddProduct = () => {
       event.target.files[0] ? event.target.files[0].name : "No file chosen"
     );
   };
+
+  
   return (
     <div className={styles.mainWrapper}>
       <form className={styles.formWrapper}>
