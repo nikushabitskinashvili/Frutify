@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./FruitCard.module.css";
 import Link from "next/link";
 import axios from "axios";
+import Image from "next/image";
 export interface Fruit {
   id: number;
   title: string;
@@ -21,13 +22,13 @@ const FruitCard = (props: Props) => {
   return (
     <div className={styles.fruitCard}>
       <div className={styles.imageWrapper}>
-        <img src={props.fruit.image} />
+        <Image src={props.fruit.image} alt={"img"} />
         <div className={styles.iconsWrapper}>
           <div className={styles.iconWrapper}>
-            <img src={"/images/pen.svg"} />
+            <Image src={"/images/pen.svg"} alt={"d"} />
           </div>
           <div className={styles.iconWrapper} >
-            <img src={"/images/trash.svg"} onClick={()=>handleDelete(props?.fruit.id)}/>
+            <Image src={"/images/trash.svg"} onClick={() => handleDelete(props?.fruit.id)} alt={"g"}/>
           </div>
         </div>
       </div>
