@@ -25,10 +25,10 @@ const FruitCard = (props: Props) => {
         <Image src={props.fruit.image} alt={"img"} />
         <div className={styles.iconsWrapper}>
           <div className={styles.iconWrapper}>
-            <Image src={"/images/pen.svg"} alt={"d"} />
+            <Image src={"/images/pen.svg"} alt={"d"} width={16} height={16} />
           </div>
           <div className={styles.iconWrapper} >
-            <Image src={"/images/trash.svg"} onClick={() => handleDelete(props?.fruit.id)} alt={"g"}/>
+            <Image src={"/images/trash.svg"} onClick={() => handleDelete(props?.fruit.id)} alt={"g"} width={16} height={16}/>
           </div>
         </div>
       </div>
