@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ Frutify
 
-## Getting Started
+ Frutify არის Single Page Application (SPA), რომელიც აგებულია React-ის გამოყენებით და წარმოადგენს ინტუიციური დიზაინით მოწყობილ მრავალგვერდიან საიტს ხილის პროდუქტებზე.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ ## 🌐 ლაივ ლინკი
+👉 [გადადით საიტზე](https://resplendent-selkie-6d67ce.netlify.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠 გამოყენებული ტექნოლოგიები
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+| React | აპლიკაციის ჩონჩხი |
+| React Router DOM | ნავიგაცია სხვადასხვა გვერდებზე |
+| Axios | API ინტეგრაცია მონაცემების წამოსაღებად |
+| React Hooks | კომპონენტების ლოგიკის მართვა (useState, useEffect, useContext და სხვ.) |
+| Custom Hooks | ლოგიკის მრავალჯერადი გამოყენება (მაგ. მონაცემების წამოღება, თემის შეცვლა და ა.შ.) |
+| LocalStorage / SessionStorage | მომხმარებლის თემის პრეფერენციების და ფილტრების შენახვა |
+| SCSS | სტილიზაციის პრეპროცესორი |
+| Responsive Design | ყველა მოწყობილობაზე მორგებული UI|
+| i18n (ქართული/ინგლისური) | მრავალენოვანი მხარდაჭერა |
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 როგორ გავუშვათ ლოკალურად
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. git clone https://github.com/nikushabitskinashvili/Frutify.git
 
-## Deploy on Vercel
+2. cd Frutify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. npm run dev
+
+
+⚠️ დამატებითი ინფორმაცია
+გთხოვთ გაითვალისწინოთ, რომ პროექტის გარკვეული ფუნქციები (მაგალითად, მონაცემების დამატება ან წაშლა) ამჟამად სრულად არ მუშაობს, რადგან Frontend ნაწილი დაკავშირებულია ლოკალურ Backend სერვერთან, რომელიც ამ ეტაპზე არ არის ჰოსტინგზე ატვირთული.
+
+ეს ნიშნავს, რომ API მოთხოვნები, რომლებიც დამოკიდებულია Backend-ზე, ფუნქციონირებს მხოლოდ მაშინ, როცა Backend გაშვებულია ლოკალურად თქვენს კომპიუტერზე.
+
